@@ -1,0 +1,26 @@
+[project]
+name = "frontend-backend"
+version = "0.1.0"
+description = "Frontend de XP Movies en Reflex con Poetry"
+authors = [
+    {name = "Damian L", email = "damian26lp@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "reflex (>=0.9.3,<0.10.0)",
+    "sqlalchemy>=2.0",
+    "pymysql>=1.1",
+    "python-dotenv>=1.0",
+    "bcrypt>=4.0",
+    "cryptography>=42.0"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

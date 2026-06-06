@@ -1,0 +1,10 @@
+*.db
+__pycache__/
+.web
+assets/external/
+.states
+*.py[cod]
+# Credenciales — NUNCA subir a Git
+.env
+ca.pem
+.env.example
